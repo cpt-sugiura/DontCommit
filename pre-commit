@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# このファイルは .git/hooks/pre-commit として配置
+# 後述の JavaScript プログラムを実行してコミットの状態を操作する
+
+node gitHooks/preCommit.js
